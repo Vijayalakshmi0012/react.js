@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: green;
+    font-family: sans-serif;
+    outline: none;
+
+}
+.hhh{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aaa{
+    background-color: black;
+    padding: 13px;
+    border-radius: 28px;
+    box-shadow: inset 5px 5px 12px palevioletred,
+                      5px 5px 12px blueviolet;
+    display: grid;
+    grid-template-columns: repeat(4,65px);
+    
+}
+input{
+    grid-column: span 4;
+    height: 80px;
+    width: 265px;
+    background-color:whitesmoke;
+    box-shadow: inset -5px -5px 12px pink,
+                        inset 5px 5px 12px whitesmoke;
+                        border: none;
+                        border-radius: 30px;
+     color: rgb(0, 0, 0.389);
+     font-size: 50px;
+     text-align: end;
+     margin: auto;  
+
+    }
+    button{
+        height: 45px;
+        width: 45px;
+        background-color: aliceblue;
+        box-shadow: -5px -5px 12px whitesmoke,
+                      5px 5px 12px peachpuff;
+        border-radius: 20px; 
+        margin: 8px;
+        font-size: 16px;             
+    }
+    .equal{
+        width: 116px;
+        border-radius: 40px;
+        background-color: rgb(245, 245, 245);
+        box-shadow: -5px -5px 12px whitesmoke,
+                     5px 5px 12px peachpuff;
+
+    }
