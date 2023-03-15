@@ -1,0 +1,13 @@
+[
+    {
+        "Name":"rakshitha",
+        "Age":"25",
+        "Gender":"male",
+        "Dob":"20-02-2023",
+        "Salary":"20000",
+        "Occupation":"mern full stack",
+        "Photo":"https://images.pexels.com/photos/9888316/pexels-photo-9888316.jpeg?cs=srgb&dl=pexels-%D0%BD%D0%B0%D1%82%D0%B0%D0%BB%D1%8C%D1%8F-9888316.jpg&fm=jpg",
+        "PhoneNo":[8087544246,8392453678]
+
+    }
+]
