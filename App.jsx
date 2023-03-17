@@ -1,6 +1,7 @@
  import React, { Component } from 'react'
  import JSON from "./user.json"
-import User from './state/User';
+import User from './state/User.jsx';
+
 
 
  export default class App extends Component {
@@ -11,7 +12,8 @@ import User from './state/User';
    render() {
      return (
        <div>
-        <User data={this.state.json}/>
+       < User data={this.state.json}/>
+        
        </div>
      )
    }
